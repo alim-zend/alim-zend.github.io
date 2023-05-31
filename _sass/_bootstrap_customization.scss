@@ -1,10 +1,10 @@
-// Zephyr 5.2.2
+// alim 5.2.2
 // Bootswatch
 
 
 // Variables
 
-$web-font-path: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" !default;
+$web-font-path: "https://fonts.googleapis.com/css2?family=Questrial&display=swap" !default;
 @if $web-font-path {
   @import url($web-font-path);
 }
