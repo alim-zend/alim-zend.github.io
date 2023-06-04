@@ -5,14 +5,14 @@
 // Variables
 
 // $web-font-path: "https://fonts.googleapis.com/css2?family=Questrial&display=swap" !default;
-// $web-font-path: "./Questrial-Regular.ttf" !default;
-@if $web-font-path {
-  // @import url($web-font-path);
-  @font-face {
-  font-family:"Questrial";
-  src: url("Questrial-Regular.ttf") format("truetype");
+$web-font-path: "./Questrial-Regular.ttf" !default;
+// @if $web-font-path {
+// @import url($web-font-path);
+@font-face {
+  font-family: "Questrial";
+  src: url($web-font-path) format("truetype");
 }
-}
+// }
 
 :root {
   color-scheme: light;
